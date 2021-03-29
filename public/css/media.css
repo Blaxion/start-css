@@ -1,0 +1,158 @@
+/* 1024 */
+@media screen and (min-width: 1024px) { 
+    .menu>div{
+        margin-left: 25%;
+        
+    }
+    .imagePF{
+        max-width: 1000px;
+    }
+
+    #about>div{
+        width: 70%;
+        
+    }
+    #about>div>p{
+        padding-left: 50px;
+        padding-right: 50px;
+        max-width: 350px;
+        width: 50%;
+    }
+    
+    #contact>form{
+        width: 80%;
+    }
+    .links{
+        justify-content: space-evenly;
+    }
+    
+    .location,.aroundtheworld,.freelance {
+        width: 250px;
+    }
+}
+/* 1024 */
+
+
+/* 600-1024 */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .menu>div{
+        margin-left: 25%;
+        
+    }
+    .bande{
+        
+        padding: 30px;
+    }
+
+    #portfolio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+    }
+    .imagePF{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .imagePF>div>img{
+        height: 175px;
+        
+    }
+
+    #about{
+        padding: 50px 0;
+    }
+    #about>div{
+        width: 100%;
+        
+    }
+    #about>div>p{
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 50%;
+    }
+
+    #contact>form{
+        width: 80%;
+    }
+
+    .links{
+        justify-content: space-evenly;
+    }
+    .location,.aroundtheworld,.freelance {
+        width: 250px;
+    }
+}
+/* 600-1024 */
+
+
+/* 320-600 */
+@media screen and (min-width: 320px) and (max-width: 600px){
+    h1{
+        font-size: 200%;
+        margin-bottom: 10px;
+    }
+    .menu>div>*{
+        padding: 3px;
+        font-size: x-small;
+    }
+    
+    .bande{
+        padding: 30px;
+        text-align: center;
+    }
+    .bandeUp{
+        font-size: 70px;
+        margin: 20px 0;
+    
+    }
+    .bandeDwn{
+        font-size: 100%;
+    }
+
+    #portfolio{
+        padding: 0;
+    }
+    .imagePF{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .imagePF>div>img{
+        height: 175px;
+        
+    }
+
+    #about{
+        padding: 0px 0;
+    
+    }
+    #about>div{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #about>div>p{
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 50%;
+        margin: 0;
+    }
+
+    #contact{
+        padding: 5% 0;
+    }
+    #contact>form{
+        width: 80%;
+    }
+
+    .links{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+    .location,.aroundtheworld,.freelance {
+        width: 250px;
+    }
+}
+/* 320-600 */

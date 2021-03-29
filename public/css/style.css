@@ -1,0 +1,200 @@
+:root {
+    --color-header-footer-text: rgb(43, 61, 79);
+    --color-startCss-about-btnSubmit: rgb(220, 56, 72);
+    --color-footer--bottom: rgb(25, 36, 46);
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 300%; 
+}
+
+h2{
+    font-size: 100%;
+}
+
+/* TU DOIS LE FAIRE POUR TOUT */
+
+
+/* HEADER -CSS */
+header{
+    width: 100%;
+}
+
+.menu{
+    background-color: var(--color-header-footer-text) ;
+
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    
+    height: 8vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu>div>*{
+    padding: 15px;
+    font-size: x-small;
+}
+
+.bande{
+    background-color: var(--color-startCss-about-btnSubmit);
+
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.bande>div>img{
+    height: 190px;
+}
+.bandeUp{
+    font-size: 70px;
+    margin: 20px 0;
+
+}
+.bandeDwn{
+    font-size: 20px;
+}
+/* HEADER -CSS */
+
+
+/* Section -CSS */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#portfolio>h1{
+    color: var(--color-header-footer-text);
+}
+.imagePF{
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagePF>div>img{
+    height: 230px;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+
+#about{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-startCss-about-btnSubmit);
+    color: white;
+    padding: 100px 0;
+
+}
+#about>div{
+    width: 40%;
+    display: inline-flex;
+    justify-content: center;
+}
+#about>div>p{
+    padding: 20px;
+    width: 30%;
+    
+}
+
+
+#contact{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+#contact>h1{
+    color: var(--color-header-footer-text);
+}
+#contact>form{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#contact>form>input{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border:none;
+    border-bottom: solid rgba(128, 128, 128, 0.199) 1px;
+    padding: 25px 0px;
+    margin: 20px 0px;
+}
+#contact>form>input:nth-child(4){
+    padding-bottom: 80px;
+}
+#contact>form>button{
+    background-color: var(--color-startCss-about-btnSubmit);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+}
+/* Section -CSS */
+
+
+/* FOOTER -CSS */
+footer{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.links{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    background-color: var(--color-header-footer-text);
+    padding: 100px 0;
+}
+
+.location,.aroundtheworld,.freelance {
+    width:15%;
+    padding: 15px;
+}
+
+.freelance>p>a{
+    color: turquoise;
+}
+
+.cpr{
+    padding: 20px;
+    background-color: var(--color-footer--bottom);
+    font-size: 10px;
+}
+/* FOOTER -CSS */
